@@ -19,3 +19,5 @@
   <li>Edit file "config.php": set API key.</li>
   <li>Edit file "database.php": set database host, name, user, password.</li>
 </ol>
+<h2>Demo online</h2>
+<p>Try YouTube Searcher <a href="http://lightit.r-launcher.su/" target="_blank">here</a>.</p>
