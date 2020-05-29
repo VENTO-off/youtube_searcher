@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^assets/(.*)$ /template/assets/$1 [R=301,NC,L]
+RewriteRule ^dist/(.*)$ /template/dist/$1 [R=301,NC,L]
