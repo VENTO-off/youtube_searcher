@@ -130,6 +130,7 @@ class Page_renderer
         $register_tpl->set("{REGISTER_TITLE}", REGISTER_GUI);
         $register_tpl->set("{PLACEHOLDER_LOGIN}", LOGIN_PLACEHOLDER_GUI);
         $register_tpl->set("{PLACEHOLDER_PASSWORD}", PASSWORD_PLACEHOLDER_GUI);
+        $register_tpl->set("{PLACEHOLDER_PASSWORD2}", PASSWORD_PLACEHOLDER2_GUI);
         $register_tpl->set("{REGISTER_BUTTON}", REGISTER_BUTTON_GUI);
 
         $main_tpl->remove("{SEARCH_BAR}");

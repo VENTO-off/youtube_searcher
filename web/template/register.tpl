@@ -8,5 +8,9 @@
         <input type="password" placeholder="{PLACEHOLDER_PASSWORD}" id="passwordField">
         <div class="icon"><i class="fa fa-key"></i></div>
     </div>
+    <div class="inputField">
+        <input type="password" placeholder="{PLACEHOLDER_PASSWORD2}" id="passwordField2">
+        <div class="icon"><i class="fa fa-key"></i></div>
+    </div>
     <button onclick="register(this);">{REGISTER_BUTTON}</button>
 </div>

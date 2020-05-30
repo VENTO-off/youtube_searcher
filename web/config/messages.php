@@ -15,6 +15,7 @@ define("SEARCH_PLACEHOLDER_GUI",        "Type to search..."                     
 
 define("LOGIN_PLACEHOLDER_GUI",         "Login"                                         );
 define("PASSWORD_PLACEHOLDER_GUI",      "Password"                                      );
+define("PASSWORD_PLACEHOLDER2_GUI",     "Repeat password"                               );
 
 define("REGISTER_GUI",                  "Create a new account"                          );
 define("REGISTER_BUTTON_GUI",           "Register"                                      );
@@ -39,6 +40,7 @@ define("REGISTER_LOGIN_REGEX_MSG",      "Login must contain only letters and num
 define("REGISTER_LOGIN_LENGTH_MSG",     "Login must be at 3-20 characters long!"        );
 define("REGISTER_PASS_LENGTH_MSG",      "Password must be at 4-20 characters long!"     );
 define("REGISTER_LOGIN_TAKEN_MSG",      "This username is already taken!"               );
+define("REGISTER_PASSWORDS_MSG",        "Passwords are not the same!"                   );
 define("REGISTER_SUCCESS_MSG",          "You have successfully registered!"             );
 
 define("LOGIN_WRONG_MSG",               "Login or Password incorrect!"                  );

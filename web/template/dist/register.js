@@ -4,8 +4,9 @@
 function register(button) {
     let login = $("#loginField").val();
     let password = $("#passwordField").val();
+    let password2 = $("#passwordField2").val();
 
-    if (login === "" || password === "") {
+    if (login === "" || password === "" || password2 === "") {
         return;
     }
 
@@ -15,7 +16,8 @@ function register(button) {
         dataType: 'json',
         data: {
             login: login,
-            password: password
+            password: password,
+            password2: password2
         },
         beforeSend: function () {
             $(button).prop("disabled", true);
